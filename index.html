@@ -11,32 +11,6 @@
 
 <body>
 <!--顶部开始 --><div id="head"><a href="http://www.baidu.com/"><img src="http://home.baidu.com/resource/r/home/img/logo-yy.gif" class="log"></a></div><!--顶部结束 -->
-<table border="0" cellspacing="0" cellpadding="0" id="menu">
-  <tr>
-    <td><!--顶部导航开始 --><script language="javascript">menuTop(1);</script><noscript>如果您关闭了浏览器的javascript，可能导致页面部分功能无法显示，请开启javascript以便正常浏览本网页。</noscript><!--顶部导航结束 -->
-</td>
-    <td width="240"><!--站内搜索开始 --><script>
-			function doSearch(form){
-				form.ct.value = "2097152";
-				form.si.value = "home.baidu.com";
-				form.tn.value = "baidulocal";
-				form.action = "http://www.baidu.com/s";
-				return true;
-			}
-function cls(tar){
-    if(tar.value==tar.getAttribute('defaultvalue')) tar.value="";
-}
-function res(tar){
-    if(tar.value=='') tar.value=tar.getAttribute('defaultvalue');
-}
-			document.write("<FORM name=f1 onsubmit='return doSearch(this);'>");
-			document.write("<INPUT type=hidden name=tn><INPUT type=hidden name=si><INPUT type=hidden name=ct>");
-			document.write("<INPUT class=formfont size=16 name=word style='border:1px solid #7f9db9;background:url(http://home.baidu.com/resource/r/home/img/dot6.gif) no-repeat;padding-left:28px;color: #cbcbcb' onfocus='cls(this);' onblur='res(this);' value=\"站内搜索\"  defaultvalue=\"站内搜索\" onClick= \"javascript:if(this.value=='站内搜索')this.value=''\";>&nbsp;");
-			document.write("<INPUT type=submit value=百度一下>");
-		</script><!--站内搜索结束 -->
-</td>
-  </tr>
-</table>
 <!--页面banner开始 -->
 <div class="bnrInd">
   <script language="javascript">
